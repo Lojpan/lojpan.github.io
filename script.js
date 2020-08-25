@@ -1,5 +1,5 @@
 
 var element = document.getElementById("checkInBox");
-var tag = displayTag;
-var tag_temp = document.createTextNode(tag);
+var displayTag;
+var tag_temp = document.createTextNode(displayTag);
 element.appendChild(tag_temp);
