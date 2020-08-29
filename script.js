@@ -1,5 +1,5 @@
 
 var element = document.getElementById("checkInBox");
-var tempTag = 0;
+var tempTag;
 tempTag.toString();
 element.appendChild(tempTag);   
