@@ -1,3 +1,5 @@
 function displayTag(){
-let element = document.getElementById("checkInBox").innerHTML = `${newTag}`;
+
+
+let element = document.getElementById("checkInBox").innerHTML = `${Number(newTag)}`;
 }
