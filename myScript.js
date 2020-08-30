@@ -7,5 +7,5 @@ const element = document.getElementById("checkInBox").innerHTML = `${newTag}`;;
 //tag_div = document.createElement('div');
 //tag_div.innerHTML = `${newTag}`;
 //element.appendChild(tag_div);
-alert(element);
+//alert(element);
 }
