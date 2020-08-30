@@ -3,7 +3,8 @@
 function displayTag(){
 //var tempTag = 10;
 newTag = 12;
-var element = document.getElementById("checkInBox");
-element.innerHTML = `${newTag}`;
-//element.appendChild(newTag);
+const element = document.getElementById("checkInBox");
+tag_div = document.createElement('div');
+tag_div.innerHTML = `${newTag}`;
+element.appendChild(tag_div);
 }
