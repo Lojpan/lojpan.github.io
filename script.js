@@ -4,5 +4,5 @@ var element = document.getElementById("checkInBox");
 //let tag_div = document.createElement('checkInBox');
 var tempTag = 10;
 element.innerHTML = `${tempTag}`;   
-tag_div.appendChild(element);
+//element.appendChild(element);
 }
