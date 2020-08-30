@@ -1,6 +1,6 @@
-function displayTag(){
+function displayTag(_input){
 var element = document.getElementById("checkInBox");
-tempTag = 10;
+tempTag = _input;
 //var tempTag = tempTag.toString();
 //let tag_div = document.createElement('checkInBox');
 element.innerHTML = `${tempTag}`;   
