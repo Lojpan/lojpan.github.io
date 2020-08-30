@@ -1,4 +1,4 @@
-var newTag;
+
 
 function displayTag(){
 var tempTag = 10;
