@@ -1,10 +1,13 @@
 function displayTag(){
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
-
-setTimeout(function(){
+}
+/*
+setTimeout(function (){
     window.location.reload();
  },10000);
-}
+ */
+
+
 
 
 
