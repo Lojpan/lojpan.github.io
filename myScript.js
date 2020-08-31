@@ -1,8 +1,8 @@
 function displayTag(){
-    reloadPage();
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
+setTimeout(function(){
+    window.location.reload();
+ },2000);
 }
 
-function reloadPage(){
-    window.location.reload();
-}
+
