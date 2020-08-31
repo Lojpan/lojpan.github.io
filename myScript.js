@@ -1,5 +1,5 @@
 function displayTag(){
-let element = document.getElementById("checkInBox").innerHTML = `${name}`;
+let element = document.getElementById("checkInBox").innerHTML = "Välkommen, " + `${name}`;
 }
 
 setTimeout(function(){
