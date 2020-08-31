@@ -1,5 +1,7 @@
 function displayTag(){
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
+element.attachEvent(name, window.location.reload());
+
 }
 
 
