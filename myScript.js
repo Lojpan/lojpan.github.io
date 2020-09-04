@@ -1,12 +1,13 @@
 
 function displayTag(){
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
-reloadDiv();
+//reloadDiv();
 }
 
 function reloadDiv(){
     //let element = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
-    if (`${newCheckin}` ==  1 ){
+    //newCheckin = document.getElementById("id").value
+    if (newCheckin ==  1 ){
     window.location.reload();
     newCheckin = 0;
     }
