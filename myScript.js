@@ -4,9 +4,9 @@ let element = document.getElementById("checkInBox").innerHTML = `${name}`;
 }
 
 function reloadDiv(){
-    if (`${newCheckin}`){
+    if (`${newCheckin}` == 1){
     window.location.reload();
-    newCheckin = false;
+    newCheckin = 0;
     }
 }
 
