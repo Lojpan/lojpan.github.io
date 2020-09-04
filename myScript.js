@@ -6,10 +6,10 @@ reloadDiv();
 
 function reloadDiv(){
 
-    let element = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
-    if (element == 1){
+    //let element = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
+    if (`${newCheckin}` ==  1 ){
     window.location.reload();
-    element = 0;
+    newCheckin = 0;
     }
 }
 
