@@ -5,7 +5,9 @@ reloadDiv();
 }
 
 function reloadDiv(){
-    if (`${newCheckin}` == 1){
+
+    let element = getElementById().innerHTML = `${newCheckin}`;
+    if (element == 1){
     window.location.reload();
     newCheckin = 0;
     }
