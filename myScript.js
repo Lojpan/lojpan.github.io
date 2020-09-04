@@ -5,11 +5,11 @@ reloadDiv();
 }
 
 function reloadDiv(){
-    let newCheckin = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
+    //let newCheckin = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
     //newCheckin = document.getElementById("id").value
-    if (newCheckin ==  1 ){
+    if (`${newCheckin}` ==  1 ){
     window.location.reload();
-    //newCheckin = 0;
+    newCheckin = 0;
     }
 }
 
