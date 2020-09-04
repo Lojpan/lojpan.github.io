@@ -8,7 +8,7 @@ function reloadDiv(){
     //newCheckin = document.getElementById("id").value
     if (`${newCheckin}` ==  1 ){
     window.location.reload();
-    newCheckin = 0;
+    //newCheckin = 0;
     }
 }
 
