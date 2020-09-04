@@ -1,21 +1,15 @@
 
 function displayTag(){
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
-
-if (`${newCheckin}` ==  1 ){
-    window.location.reload();
-    //newCheckin = 0;
-    }
-
 }
 
 function reloadDiv(){
     let newCheckin = document.getElementById("checkInBox").innerHTML = `${newCheckin}`;
     //newCheckin = document.getElementById("id").value
-    if (`${newCheckin}` ==  1 ){
-    window.location.reload();
+    //if (`${newCheckin}` ==  1 ){
+    //window.location.reload();
     //newCheckin = 0;
-    }
+    //}
 }
 
 
