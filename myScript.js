@@ -8,7 +8,7 @@ let element = document.getElementById("checkInBox").innerHTML = `${name}`;
 function reload(){
     if (newCheckin)
     window.location.reload();
-    newCheckin = false;
+    //newCheckin = false;
 }
 
 
