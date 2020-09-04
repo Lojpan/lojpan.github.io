@@ -1,7 +1,7 @@
 
 function displayTag(){
 let element = document.getElementById("checkInBox").innerHTML = `${name}`;
-//reloadDiv();
+reloadDiv();
 }
 
 function reloadDiv(){
@@ -9,7 +9,7 @@ function reloadDiv(){
     //newCheckin = document.getElementById("id").value
     if (newCheckin ==  1 ){
     window.location.reload();
-    newCheckin = 0;
+    //newCheckin = 0;
     }
 }
 
