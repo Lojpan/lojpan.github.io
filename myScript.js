@@ -4,7 +4,8 @@ function displayTag(){
 }
 
 function refreshDiv() {
-    $('#checkInBox').load('#checkInBox');
+    //$('#checkInBox').load('#checkInBox');
+    window.location.reload();
 }
 
 
