@@ -2,9 +2,8 @@
 
 function displayTag(){
     var newCheckIn = document.getElementById("checkInBox") = `${newCheckIn}`;
-    
+    document.getElementById("checkInBox").innerHTML = `${name}`;
         if(newCheckIn = 1){
-            document.getElementById("checkInBox").innerHTML = `${name}`;
             refreshDiv();
         }
 }
