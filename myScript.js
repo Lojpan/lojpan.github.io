@@ -1,6 +1,12 @@
 
+
+
 function displayTag(){
     document.getElementById("checkInBox").innerHTML = `${name}`;
+    if(`${newCheckIn}` = 1){
+        refreshDiv();
+        //newCheckIn = 0;
+    }
 }
 
 function refreshDiv() {
