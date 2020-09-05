@@ -1,9 +1,9 @@
 
-
+newCheckIn = `${newCheckIn}`;
 
 function displayTag(){
     document.getElementById("checkInBox").innerHTML = `${name}`;
-    if(`${newCheckIn}` = 1){
+    if(newCheckIn = 1){
         refreshDiv();
         //newCheckIn = 0;
     }
