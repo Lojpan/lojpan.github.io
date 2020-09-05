@@ -1,17 +1,17 @@
 
-var newCheckIn = document.getElementById("checkInBox") = `${newCheckIn}`;
 
 function displayTag(){
+    var newCheckIn = document.getElementById("checkInBox") = `${newCheckIn}`;
     document.getElementById("checkInBox").innerHTML = `${name}`;
     if(newCheckIn = 1){
         refreshDiv();
-        //newCheckIn = 0;
     }
 }
 
 function refreshDiv() {
     //$('#checkInBox').load('#checkInBox');
     window.location.reload();
+    newCheckIn = 0;
 }
 
 
