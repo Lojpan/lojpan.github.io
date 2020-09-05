@@ -2,16 +2,16 @@
 
 function displayTag(){
     var newCheckIn = document.getElementById("checkInBox") = `${newCheckIn}`;
-    document.getElementById("checkInBox").innerHTML = `${name}`;
-    if(newCheckIn = 1){
-        refreshDiv();
-    }
+    
+        if(newCheckIn = 1){
+            document.getElementById("checkInBox").innerHTML = `${name}`;
+            refreshDiv();
+        }
 }
 
 function refreshDiv() {
     //$('#checkInBox').load('#checkInBox');
     window.location.reload();
-    newCheckIn = 0;
 }
 
 
