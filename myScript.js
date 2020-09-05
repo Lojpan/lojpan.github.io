@@ -1,5 +1,20 @@
 
 
+
+function refreshDiv() {
+    //$('#checkInBox').load('#checkInBox');
+    window.location.reload();
+}
+
+function displayTag(){
+    document.getElementById("checkInBox").innerHTML = `${name}`;
+}
+
+
+
+
+/*
+
 function displayTag(){
     var newCheckIn = document.getElementById("checkInBox") = `${newCheckIn}`;
     document.getElementById("checkInBox").innerHTML = `${name}`;
@@ -8,13 +23,6 @@ function displayTag(){
         }
 }
 
-function refreshDiv() {
-    //$('#checkInBox').load('#checkInBox');
-    window.location.reload();
-}
-
-
-/*
 function refreshDiv(){
     setInterval(
         function () {
