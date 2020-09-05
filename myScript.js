@@ -1,5 +1,5 @@
 
-newCheckIn = `${newCheckIn}`;
+var newCheckIn = `${newCheckIn}`;
 
 function displayTag(){
     document.getElementById("checkInBox").innerHTML = `${name}`;
