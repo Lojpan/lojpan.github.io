@@ -7,7 +7,7 @@ function refreshDiv(){
     setInterval(
         function () {
             $('#checkInBox').load('#checkInBox');
-        }, 1000);
+        }, 500);
 }
 
 
