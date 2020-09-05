@@ -3,7 +3,7 @@
 
 function refreshDiv() {
     //$('#checkInBox').load('#checkInBox');
-    window.location.reload();
+    //window.location.reload();
 }
 
 function displayTag(){
